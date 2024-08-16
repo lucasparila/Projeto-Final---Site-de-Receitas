@@ -1,32 +1,47 @@
-body{
+body {
     background-image: url('../imagens/homepage.jpg');
     background-size: cover;
-    background-repeat: no-repeat; 
-    background-position:center;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #fff;
+    font-family: Arial, sans-serif;
+    /* Fonte para uma aparência mais moderna */
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    
-    margin-top: 0.1%;
-}
-
-table, th, td {
-    color: #000;
-    border: 1px solid #000;
-    border-collapse: collapse;
+h1 {
+    margin-top: 20px;
     text-align: center;
-    height: 150px;
-    width: 600px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+}
 
-  div{
-    background-color: #fff;
-    border-radius: 20px;
-    border: solid 1px #000;
-    opacity: 0.6;
+p {
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Cor de fundo semi-transparente */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
 }

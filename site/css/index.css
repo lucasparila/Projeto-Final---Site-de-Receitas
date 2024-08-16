@@ -1,10 +1,10 @@
-
-h1{
+h1 {
     color: white;
     font-size: 8em;
     margin-top: 0.1%;
 }
-nav{
+
+nav {
     color: white;
 }
 
@@ -12,20 +12,20 @@ a:visited {
     color: white;
 }
 
-body{
+body {
     background-image: url('/imagens/homepage.jpg');
     background-size: cover;
-    background-repeat: no-repeat; 
-    background-position:center;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-main{
+main {
     display: grid;
     grid-template-columns: 50% 50%;
-   
+
 }
 
-.comidassalgadas{
+.comidassalgadas {
     background-color: white;
     border-radius: 20px;
     width: 50%;
@@ -41,7 +41,7 @@ main{
 
 }
 
-.comidasdoces{
+.comidasdoces {
     background-color: white;
     border-radius: 20px;
     width: 50%;
@@ -54,6 +54,7 @@ main{
     opacity: 0.6;
     font-size: 2em;
 }
-footer{
+
+footer {
     color: #000;
 }
