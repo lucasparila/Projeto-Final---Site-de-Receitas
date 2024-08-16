@@ -4,8 +4,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
-    font-family: Arial, sans-serif;
-    /* Fonte para uma aparência mais moderna */
+    font-family: 'Jost', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -13,6 +12,11 @@ body {
 h1 {
     margin-top: 20px;
     text-align: center;
+}
+
+video {
+    width: 100%;
+    height: 400px;
 }
 
 p {
@@ -39,7 +43,6 @@ td {
 
 div {
     background-color: rgba(255, 255, 255, 0.8);
-    /* Cor de fundo semi-transparente */
     border-radius: 10px;
     padding: 20px;
     margin: 0 auto;
